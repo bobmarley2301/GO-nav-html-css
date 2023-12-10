@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Простий Navbar</title>
+    
+    <style>
+        nav{
+            background-color: #007d9c;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        h1, h2, h3 {
+            margin: 0;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #202224;
+            color: white;
+        }
+        ul {
+            list-style-type: none;
+            display: flex;
+        }
+        li a {
+            text-decoration: none;
+            padding: 0 10px;
+            color: white;
+            margin: 0 20px 0 20px;
+            padding-bottom: 15px;
+        }
+        a:hover {
+            border-bottom: 3px solid white;
+            
+        }
+        .logo_img{
+            margin: 0 20px 0 20px;
+            
+        }
+        .container {
+            max-width: 1280px;
+            width: 100%;
+            margin: 0 auto;
+        }
+        
+        
+        
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><img height="30px"  class="logo_img" src="go-logo-white.svg" alt=""></div>
+            <ul>
+                <li><a href="#">Why Go?</a></li>
+                <li><a href="#">Learn</a></li>
+                <li><a href="#">Docs</a></li>
+                <li><a href="#">Community</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="content">
+            
+        </div>
+    </div>
+    
+</body>
+</html>
